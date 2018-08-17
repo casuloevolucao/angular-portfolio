@@ -1,0 +1,7 @@
+.slider{
+    z-index: 7; 
+    text-transform:none; 
+    white-space: nowrap; 
+    margin-top: 250px; 
+    margin-left: 250px;
+}
