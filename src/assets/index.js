@@ -491,7 +491,7 @@ function handleEscKey() {
 
 function handleTyping () {
   $(".element").typed({
-    strings: ["Trabalhar com voçe", "Estudar com voçe", "Fazer projetos com voçe"],
+    strings: ["Trabalhar com você", "Estudar com você", "Fazer projetos com você"],
     typeSpeed: 100,
     starDelay: 300,
     backDelay: 600,

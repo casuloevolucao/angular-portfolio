@@ -8,6 +8,7 @@ import { SobreComponent } from './sobre/sobre.component';
 import { ContatoComponent } from './contato/contato.component';
 import { ProjetosComponent } from './projetos/projetos.component';
 import { TeamComponent } from './team/team.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { TeamComponent } from './team/team.component';
     SobreComponent,
     ContatoComponent,
     ProjetosComponent,
-    TeamComponent
+    TeamComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
