@@ -176,6 +176,14 @@ a {
   #contact p {
     font-size: .7em;
   }
+  #projects{
+    margin-top:  -100px;
+  }
+}
+@media (min-width: 300px) and (max-width: 319px){
+  #projects{
+    margin-top:  -200px;
+  }
 }
 .dark-gray-background {
   background-color: #222426;

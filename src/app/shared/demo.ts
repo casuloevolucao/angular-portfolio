@@ -10,14 +10,13 @@ export const persons = [
     }
   },
   {
-    name: "Carl Roland",
-    photo: "https://s-media-cache-ak0.pinimg.com/564x/1f/71/bb/1f71bb075f83124470c9e0474137f795.jpg",
-    title: "Developer",
-    bio:" Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.",
+    name: "Carlos Eduardo",
+    photo: "./assets/team/eduardo.jpg",
+    title: "Desenvolvedor React Native, Ionic 3.",
+    bio:"Lider do grupo Casulo, atualmente dando ênfase em projetos com React Native. Entusiasta proativo na área de desenvolvimento.",
     social: {
-      facebook: "#",
-      twitter: "https://twitter.com/knyttneve",
-      linkedin: "#"
+      facebook: "https://pt-br.facebook.com/carllosmattos00",
+      github: "https://github.com/carllosmattos"
     }
   },
   {
