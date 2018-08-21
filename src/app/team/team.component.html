@@ -11,8 +11,9 @@
                     </div>
                     <div class="over_layer">
                         <ul class="social_links">
-                            <li><a href="{{equipe.social.facebook}}" target="facebook" class="fa fa-facebook"></a></li>
-                            <li><a href="{{equipe.social.github}}" target="github" class="fa fa-github"></a></li>
+                            <li *ngIf="equipe.social.facebook != undefined"><a href="{{equipe.social.facebook}}" target="facebook" class="fa fa-facebook"></a></li>
+                            <li *ngIf="equipe.social.github != undefined" ><a href="{{equipe.social.github}}" target="github" class="fa fa-github"></a></li>
+                            <li *ngIf="equipe.social.linkedin != undefined" ><a href="{{equipe.social.linkedin}}" target="github" class="fa fa-linkedin-square"></a></li>
                         </ul>
                         <p>{{equipe.bio}}</p>
                     </div>

@@ -59,6 +59,7 @@ a {
 
 #projects {
   background-color: #ffffff;
+  margin-top: -150px;
 }
 #projects h2 {
   display: block;

@@ -28,6 +28,8 @@
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
         "../node_modules/typed.js/lib/typed.min.js",
+        "assets/common.js",
+        "assets/text-auto.js",
         "assets/revolution/js/source/jquery.themepunch.tools.min.js",
         "assets/revolution/js/source/jquery.themepunch.revolution.js",
         "assets/revolution/js/extensions/revolution.extension.actions.min.js",
@@ -35,7 +37,7 @@
         "assets/revolution/js/extensions/revolution.extension.navigation.min.js",
         "assets/revolution/js/extensions/revolution.extension.slideanims.min.js",
         "assets/revolution/js/extensions/revolution.extension.video.min.js",
-        "assets/index.js"
+        "assets/porfolio.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
