@@ -464,29 +464,56 @@ a i {
     margin-top: 10px;
     text-align: center;
 }
-
 /*--------------------------------------------------------------
-    14.0 - Call to Action
+    13.1 - Portfolio Filters
 --------------------------------------------------------------*/
 
-.cta {
-    position: relative;
-    padding: 80px 20px;
+.filters {
+    margin: 0 10px 30px;
     text-align: center;
 }
 
-.cta h2 {
-    font-size: 48px;
-    line-height: 1.2;
+.filters a {
+    display: inline-block;
+    margin: 0 1px 40px 5px;
 }
 
-.cta-info {
-    font-size: 20px;
+.filters img {
+    width: 100px;
 }
 
-.cta .btn {
-    margin-top: 40px;
+.filters.by-artists a {
+    margin-right: 40px;
+    text-align: center;
+    font-weight: 700;
+    vertical-align: top;
+    opacity: 0.4;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    -ms-transition: opacity 0.4s;
+    -o-transition: opacity 0.4s;
+    transition: opacity 0.4s;
 }
+
+.filters.by-artists a:hover,
+.filters.by-artists a.light,
+.filters.by-artists a.all {
+    opacity: 1;
+}
+
+.filters.by-artists a.all {
+    width: 98px;
+    height: 98px;
+    line-height: 98px;
+    border: 1px solid #cccccc;
+}
+
+.filters.by-artists span {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
 /*--------------------------------------------------------------
     30.0 - Magnific Popup CSS
 --------------------------------------------------------------*/
@@ -898,5 +925,7 @@ img.mfp-img {
     }
 
  }
+
+
  
 
