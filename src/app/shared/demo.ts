@@ -20,14 +20,15 @@ export const persons = [
     }
   },
   {
-    name: "Paul Wilson",
-    photo: "https://s-media-cache-ak0.pinimg.com/564x/1f/71/bb/1f71bb075f83124470c9e0474137f795.jpg",
-    title: "UI Designer",
-    bio:"cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.",
+    name: "Raquel Barra",
+    photo: "./assets/team/raquel.jpg",
+    title: "Web Designer",
+    bio:"Desenvolvedora PHP, Javascript, Html5 e Css3. Utilizadora dos Cms e Lms, Joomla e Moodle.",
     social: {
-      facebook: "#",
-      twitter: "https://twitter.com/knyttneve",
-      linkedin: "#"
+      github: "https://github.com/rsb12php",
+      twitter: "https://twitter.com/labarraquel",
+      linkedin: "https://www.linkedin.com/in/raquel-barra/",
+      instagram: "https://www.instagram.com/raquelbarra_/"
     }
   },
   {
@@ -36,8 +37,8 @@ export const persons = [
     title: "Desenvolvedor Spring Boot",
     bio: "Sou amante de sushi, degustador de vinho e usuário de cafeína. Adoro humanas e debater política. Trabalhar programando para mim é viver de férias. ",
     social: {
-      github: "github.com/ValdeciJunior",
-      linkedin: "www.linkedin.com/in/valdernate"
+      github: "https://github.com/ValdeciJunior",
+      linkedin: "#"
     }
   }
 ];
