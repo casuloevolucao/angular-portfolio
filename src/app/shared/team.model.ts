@@ -2,7 +2,7 @@ import { Social } from "./social.model";
 
 export class Team {
 
-    public nome: string
+    public name: string
 
     public foto: string
 

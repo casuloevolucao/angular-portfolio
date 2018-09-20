@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { persons } from '../shared/demo';
 
+
 @Component({
   selector: 'app-team',
   templateUrl: './team.component.html',
@@ -10,11 +11,13 @@ export class TeamComponent implements OnInit {
 
   public team  = persons
 
-  constructor() { 
-    console.log(this.team)
-  }
+  constructor(
+    
+  ) {}
 
   ngOnInit() {
+ 
+    
   }
 
 }
