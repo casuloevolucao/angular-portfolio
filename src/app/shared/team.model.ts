@@ -1,16 +1,14 @@
 import { Social } from "./social.model";
 
-export class Team {
+export class Team{
 
-    public name: string
+    public name:string
 
-    public foto: string
+    public title:string
 
     public bio:string
 
     public social:Social
-
-    public cargo:string
-
-
+    
+    public photo:string
 }

@@ -14,8 +14,8 @@ import { FooterComponent } from './footer/footer.component';
 
 //firebase config
 import { environment } from '../environments/environment';
-import { AngularFireModule } from 'angularfire2';
-import { AngularFirestoreModule } from 'angularfire2/firestore';
+import { AngularFireModule } from '@angular/fire/';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
 
 //services
 import { DataService } from './shared/Data.service';

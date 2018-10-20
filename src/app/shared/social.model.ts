@@ -1,11 +1,12 @@
 export class Social{
+    
+    public facebook:string
 
-    constructor(
-        
-        public facebook:string,
+    public github:string
 
-        public instagram:string,
+    public instagram:string
 
-        public github:string
-    ){}
+    public linkedin:string
+
+    public twitter:string
 }

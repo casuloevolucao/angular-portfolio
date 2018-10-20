@@ -74,3 +74,21 @@
     display: block;
     text-transform: uppercase;
 }
+.top-side {
+    text-align: center;
+  }
+  .top-side .title {
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+  }
+  .top-side .title:after {
+    content: "";
+    display: block;
+    width: 50%;
+    border-bottom: 1px solid #494949;
+    margin: 8px auto;
+  }
+  .top-side h2 {
+    font-weight: 700;
+  }

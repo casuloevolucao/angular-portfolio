@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Portfolio } from '../shared/portfolio.model';
+import { Categories } from '../shared/categories.model';
+import { DataService } from '../shared/Data.service';
 
 @Component({
   selector: 'app-projetos',
@@ -7,9 +10,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjetosComponent implements OnInit {
 
-  constructor() { }
+  portfolio:Portfolio[]
+
+  categories:Categories[]
+
+  constructor(
+    private Data:DataService
+  ) { }
 
   ngOnInit() {
+    this.Data.getPortfolio().subscribe(itens=>{
+      this.portfolio = itens
+    })
+    this.Data.getCategoires().subscribe(itens=>{
+      this.categories = itens
+    })
   }
 
 }
